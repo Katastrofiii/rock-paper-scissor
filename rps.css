@@ -1,0 +1,26 @@
+.container {
+    text-align: center;
+    align-items: center;
+}
+.rps-container {
+    width: 350px;
+    height: 450px;
+    border: 2px solid black;
+    border-radius: 10px;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 200px;
+    background-color: gray;
+}
+.btn {
+    width: 75px;
+    height: 80px;
+    border: 1px solid springgreen;
+    border-radius: 50px;
+    padding: 10px 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: url();
+}
