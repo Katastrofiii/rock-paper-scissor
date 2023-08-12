@@ -1,3 +1,9 @@
+let person = prompt("Please enter your name", "Jherald");
+  if (person != null) {
+    document.getElementById("h1").innerHTML =
+    "Hello " + person + "! How are you today?";
+  }
+
 function myFunction() {
     let randomNumber = Math.random();
 
