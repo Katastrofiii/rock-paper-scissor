@@ -1,3 +1,8 @@
+body {
+    background: url(rps/rps.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .container {
     text-align: center;
     align-items: center;
@@ -9,7 +14,7 @@
     border-radius: 10px;
     justify-content: space-around;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 180px;
     background-color: gray;
 }
 .btn {
@@ -23,4 +28,29 @@
 }
 .btn:hover {
     background: url();
+}
+#value {
+    width: 300px;
+    height: 25px;
+    padding: 20px;
+    border: 1px solid darkorchid;
+    background: black;
+    color: lightgreen;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 1rem;
+
+}
+#computer {
+    width: 150px;
+    height: 20px;
+    padding: 15px;
+    border: 1px solid darkorchid;
+    background: black;
+    color: lightgreen;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 15px;
+    font-size: .7rem;
 }
